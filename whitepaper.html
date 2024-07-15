@@ -25,39 +25,31 @@
             margin: 20px 0 10px;
             padding: 0;
         }
-        .header, .section {
-            background: url('header-bg.jpg') no-repeat center center/cover;
-            color: #fff;
-            padding: 60px 0;
-            text-align: center;
-        }
-        .header {
+        .section {
             margin-bottom: 20px;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .section h2 {
-            font-size: 2em;
-        }
-        .content {
-            padding: 20px 0;
-        }
-        .content img {
-            max-width: 100%;
-            height: auto;
         }
         .section-content {
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-content h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .section-content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .section-content ul {
+            padding-left: 20px;
+        }
+        .section-content ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>EarnEth: Revolutionizing Ethereum Earnings</h1>
-    </div>
     <div class="container">
         <div class="section">
             <div class="section-content">
@@ -65,66 +57,70 @@
                 <p>EarnEth is a decentralized platform designed to empower users to earn Ethereum (ETH) through various innovative mechanisms. Leveraging blockchain technology and smart contracts, EarnEth provides a secure, transparent, and efficient way for users to maximize their cryptocurrency holdings.</p>
             </div>
         </div>
-        <div class="content">
-            <h2>Table of Contents</h2>
-            <ul>
-                <li>Introduction</li>
-                <li>Market Overview</li>
-                <li>The EarnEth Platform</li>
-                <ul>
-                    <li>Features</li>
-                    <li>Technology</li>
-                </ul>
-                <li>Benefits</li>
-                <ul>
-                    <li>For Users</li>
-                    <li>For Developers</li>
-                </ul>
-                <li>Use Cases</li>
-                <li>Tokenomics</li>
-                <li>Roadmap</li>
-                <li>Team</li>
-                <li>Conclusion</li>
-                <li>References</li>
-            </ul>
-        </div>
         <div class="section">
+            <div class="section-content">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#market-overview">Market Overview</a></li>
+                    <li><a href="#earneth-platform">The EarnEth Platform</a>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#technology">Technology</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#benefits">Benefits</a>
+                        <ul>
+                            <li><a href="#benefits-users">For Users</a></li>
+                            <li><a href="#benefits-developers">For Developers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#use-cases">Use Cases</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#conclusion">Conclusion</a></li>
+                    <li><a href="#references">References</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section" id="introduction">
             <div class="section-content">
                 <h2>1. Introduction</h2>
                 <p>The cryptocurrency market has grown exponentially over the past decade, with Ethereum (ETH) emerging as a leading platform for decentralized applications (dApps) and smart contracts. Despite this growth, many users still struggle to find reliable and efficient ways to earn Ethereum. EarnEth addresses this gap by offering a platform that combines multiple earning mechanisms into a single, user-friendly ecosystem.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="market-overview">
             <div class="section-content">
                 <h2>2. Market Overview</h2>
                 <p>The demand for Ethereum and other cryptocurrencies continues to rise, driven by increased adoption of blockchain technology and decentralized finance (DeFi). However, the complexity and risks associated with traditional earning methods, such as mining and trading, have created barriers for many potential users. EarnEth aims to simplify the process, providing a more accessible and secure way to earn ETH.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="earneth-platform">
             <div class="section-content">
                 <h2>3. The EarnEth Platform</h2>
-                <h3>Features</h3>
+                <h3 id="features">Features</h3>
                 <ul>
                     <li><strong>Staking</strong>: Earn rewards by staking your ETH on our platform.</li>
                     <li><strong>Yield Farming</strong>: Participate in liquidity pools and earn returns on your investments.</li>
                     <li><strong>Referral Programs</strong>: Invite others to join and earn a percentage of their earnings.</li>
                     <li><strong>Educational Resources</strong>: Access tutorials and guides to enhance your understanding of cryptocurrency earning strategies.</li>
                 </ul>
-                <h3>Technology</h3>
+                <h3 id="technology">Technology</h3>
                 <p>EarnEth is built on the Ethereum blockchain, utilizing smart contracts to automate and secure all transactions. Our platform ensures transparency and fairness, with all operations verifiable on the blockchain.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="benefits">
             <div class="section-content">
                 <h2>4. Benefits</h2>
-                <h3>For Users</h3>
+                <h3 id="benefits-users">For Users</h3>
                 <ul>
                     <li><strong>Security</strong>: Decentralized and encrypted transactions ensure the highest level of security.</li>
                     <li><strong>Transparency</strong>: All transactions are recorded on the blockchain, providing full transparency.</li>
                     <li><strong>Efficiency</strong>: Automated processes reduce the time and effort required to earn ETH.</li>
                     <li><strong>Accessibility</strong>: User-friendly interface and comprehensive resources make it easy for anyone to participate.</li>
                 </ul>
-                <h3>For Developers</h3>
+                <h3 id="benefits-developers">For Developers</h3>
                 <ul>
                     <li><strong>Integration</strong>: Easy integration with other dApps and DeFi platforms.</li>
                     <li><strong>Scalability</strong>: Built on Ethereum, our platform is highly scalable and capable of handling a large number of transactions.</li>
@@ -132,7 +128,7 @@
                 </ul>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="use-cases">
             <div class="section-content">
                 <h2>5. Use Cases</h2>
                 <ul>
@@ -142,13 +138,13 @@
                 </ul>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="tokenomics">
             <div class="section-content">
                 <h2>6. Tokenomics</h2>
                 <p>EarnEth’s tokenomics are designed to ensure the sustainability and growth of the platform. A portion of the platform’s earnings is allocated to a reserve fund, which is used for platform maintenance and development. Users can earn additional tokens through various activities on the platform, such as staking and participating in referral programs.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="roadmap">
             <div class="section-content">
                 <h2>7. Roadmap</h2>
                 <ul>
@@ -160,19 +156,19 @@
                 </ul>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="team">
             <div class="section-content">
                 <h2>8. Team</h2>
                 <p>Our team consists of experienced professionals in the fields of blockchain development, finance, and marketing. With a shared passion for cryptocurrency and decentralized finance, we are committed to making EarnEth the leading platform for earning Ethereum.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="conclusion">
             <div class="section-content">
                 <h2>9. Conclusion</h2>
                 <p>EarnEth is poised to revolutionize the way people earn Ethereum. By combining multiple earning mechanisms into a single, user-friendly platform, we make it easier and more secure for users to grow their ETH holdings. Join us on this exciting journey and start earning Ethereum today.</p>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="references">
             <div class="section-content">
                 <h2>10. References</h2>
                 <p>[List any sources, technical papers, or references to support the content in your white paper.]</p>
